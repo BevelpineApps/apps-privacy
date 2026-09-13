@@ -38,12 +38,11 @@ For each initiative, the app stores:
   who last updated it.
 
 It also stores one record noting when it last checked for data to migrate, and
-how many records it migrated and skipped. This record holds no personal data.
+how many records it migrated and skipped.
 
 The account IDs are recorded by the app's server-side code. They are never sent
-to the page. The app does not store names, email addresses, or issue content:
-issue summaries and statuses are read from Jira, with your own permissions, each
-time the page loads.
+to the page. Issue summaries and statuses are read from Jira each time the page
+loads.
 
 ### Where it is stored
 
@@ -61,13 +60,6 @@ services.
 An initiative is kept until someone deletes it in the app. Deleting it removes
 its record.
 
-The app has no uninstall step of its own. What happens to stored data when an
-app is uninstalled is described in Atlassian's
-[Forge hosted storage data lifecycle](https://developer.atlassian.com/platform/forge/storage-reference/hosted-storage-data-lifecycle/).
-Under that page, the data is first "soft deleted" and then kept for Atlassian's
-retention period. If the app is reinstalled within 21 days of being
-uninstalled, the new installation can be relinked to the old data.
-
 ## User Access Audit for Jira
 
 ### What the app stores
@@ -77,16 +69,15 @@ keep any record between visits.
 
 ### What it reads
 
-When a Jira user runs the audit, the app reads from Jira, with that user's own
-permissions:
+When a Jira user runs the audit, the app reads from Jira:
 
 - the site's account list;
 - the site's groups and their members;
 - which groups grant which products.
 
 It shows the results in that user's browser. They include each account's
-display name and account ID. Where Atlassian's profile-visibility settings let
-Jira return it, they also include the email address. They are gone when the page
+display name and account ID. Where Jira returns it, they also include the email
+address. They are gone when the page
 is closed.
 
 If the user downloads the CSV file, it is created in their browser and saved to
@@ -112,9 +103,7 @@ For each label a Jira administrator gives a colour, the app stores:
 - the Atlassian **account ID** of the administrator who set it.
 
 The account ID is recorded by the app's server-side code and is never sent to
-any page. The app does not store names, email addresses, or issues. It reads an
-issue's labels from Jira, with the viewing user's own permissions, when the
-issue panel loads.
+any page. It reads an issue's labels from Jira when the issue panel loads.
 
 ### Where it is stored
 
@@ -131,13 +120,6 @@ services.
 
 A colour is kept until an administrator removes it in the app. Removing it
 deletes its record.
-
-The app has no uninstall step of its own. What happens to stored data when an
-app is uninstalled is described in Atlassian's
-[Forge hosted storage data lifecycle](https://developer.atlassian.com/platform/forge/storage-reference/hosted-storage-data-lifecycle/).
-Under that page, the data is first "soft deleted" and then kept for Atlassian's
-retention period. If the app is reinstalled within 21 days of being
-uninstalled, the new installation can be relinked to the old data.
 
 ## Contact
 
