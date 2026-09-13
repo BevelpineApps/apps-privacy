@@ -49,6 +49,19 @@ loads.
 In Atlassian's Forge hosted storage, for the app's installation on your site.
 The app runs entirely on Atlassian's infrastructure.
 
+### Data residency
+
+**In scope:** all of the End-User Data the app stores — initiative records: name,
+start and end dates, linked Jira issue keys, created and last-updated times, and
+the Atlassian account IDs of the creator and last editor.
+
+**Out of scope:** none. The app stores no End-User Data outside Forge hosted
+storage.
+
+Forge hosted storage is covered by Atlassian's data residency: per Atlassian's
+Forge documentation, if an app stores its data on Forge persistent storage, an
+admin can control where that data is stored.
+
 ### What leaves your Atlassian site
 
 Nothing. The app declares no external network permissions and makes no calls to
