@@ -4,7 +4,7 @@
 
 This privacy policy covers the Atlassian Marketplace apps **"Bulk Excel & CSV
 Exporter for Jira"**, **"Hide from Export for Confluence"**, **"Initiative
-Timeline for Jira"**, **"User Access Audit for Jira"** and **"Coloured Labels
+Timeline for Jira"**, **"User Access Audit for Jira"** and **"Colored Labels
 for Jira"**. Each app has its own section below.
 
 ## Bulk Excel & CSV Exporter for Jira and Hide from Export for Confluence
@@ -91,7 +91,7 @@ permissions. It uses no analytics, tracking, cookies or third-party services.
 The only data that leaves Jira is a CSV file a user chooses to download to their
 own computer.
 
-## Coloured Labels for Jira
+## Colored Labels for Jira
 
 ### What the app stores
 
