@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last updated:** 13/09/2026
+**Last updated:** 14/09/2026
 
 This privacy policy covers the Atlassian Marketplace apps **"Bulk Excel & CSV
 Exporter for Jira"**, **"Hide from Export for Confluence"**, **"Initiative
@@ -122,6 +122,19 @@ any page. It reads an issue's labels from Jira when the issue panel loads.
 
 In Atlassian's Forge hosted storage, for the app's installation on your site.
 The app runs entirely on Atlassian's infrastructure.
+
+### Data residency
+
+**In scope:** all of the End-User Data the app stores — label colour settings:
+the label name, the chosen colour, when the colour was set, and the Atlassian
+account ID of the administrator who set it.
+
+**Out of scope:** none. The app stores no End-User Data outside Forge hosted
+storage.
+
+Forge hosted storage is covered by Atlassian's data residency: per Atlassian's
+Forge documentation, if an app stores its data on Forge persistent storage, an
+admin can control where that data is stored.
 
 ### What leaves your Atlassian site
 
