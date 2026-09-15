@@ -1,11 +1,14 @@
 # Privacy Policy
 
-**Last updated:** 14/09/2026
+**Last updated:** 15/09/2026
 
 This privacy policy covers the Atlassian Marketplace apps **"Bulk Excel & CSV
 Exporter for Jira"**, **"Hide from Export for Confluence"**, **"Initiative
 Timeline for Jira"**, **"User Access Audit for Jira"** and **"Label Colors
 for Jira"**. Each app has its own section below.
+
+**Data processing terms.** For these apps, our [Data Processing Addendum](https://bevelpineapps.github.io/dpa/)
+sets out how we process personal data on your behalf.
 
 ## Bulk Excel & CSV Exporter for Jira and Hide from Export for Confluence
 
@@ -105,18 +108,19 @@ The only data that leaves Jira is a CSV file a user chooses to download to their
 own computer.
 
 <a id="coloured-labels-for-jira"></a>
+<a id="label-colors-for-jira"></a>
 
 ## Label Colors for Jira
 
-Inside Jira, the app's panel and settings page are titled **Coloured Labels**.
+Inside Jira, the app's panel and settings page are titled **Label Colors**.
 
 ### What the app stores
 
-For each label a Jira administrator gives a colour, the app stores:
+For each label a Jira administrator gives a color, the app stores:
 
 - the label name;
-- the chosen colour;
-- when the colour was set;
+- the chosen color;
+- when the color was set;
 - the Atlassian **account ID** of the administrator who set it.
 
 The account ID is recorded by the app's server-side code and is never sent to
@@ -129,8 +133,8 @@ The app runs entirely on Atlassian's infrastructure.
 
 ### Data residency
 
-**In scope:** all of the End-User Data the app stores — label colour settings:
-the label name, the chosen colour, when the colour was set, and the Atlassian
+**In scope:** all of the End-User Data the app stores — label color settings:
+the label name, the chosen color, when the color was set, and the Atlassian
 account ID of the administrator who set it.
 
 **Out of scope:** none. The app stores no End-User Data outside Forge hosted
@@ -148,7 +152,7 @@ services.
 
 ### How long data is kept
 
-A colour is kept until an administrator removes it in the app. Removing it
+A color is kept until an administrator removes it in the app. Removing it
 deletes its record.
 
 ## Contact
