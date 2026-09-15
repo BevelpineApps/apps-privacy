@@ -108,7 +108,6 @@ The only data that leaves Jira is a CSV file a user chooses to download to their
 own computer.
 
 <a id="coloured-labels-for-jira"></a>
-<a id="label-colors-for-jira"></a>
 
 ## Label Colors for Jira
 
